@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header-idiomas{
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    background-color: #222;
+    height: 20px;
+}
+
+.header-idiomas p{
+    margin-left: 80px;
+}
+
+.header-idiomas ul{
+    display: flex;
+    
+}
+
+.navegacion-header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header-logo-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    background-color: #F0A83E;
+    height: 65px;
+}
+
+.header-logo-menu img{
+    margin-left: 40px;
+}
+
+.navegacion-header ul{
+    display: flex;
+    
+}
+
+
+li {
+    list-style: none;
+    margin-right: 15px;
+
+}
+
+.imagen-fondo {
+    background-image: url("/img/bowl-and-pet-daities-on-green-background\ 1.png");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+
+}
+
+ .bienvenida {
+    
+    background-color: #ffffff;
+    font-size: 30px;
+    padding: 10px ;
+    border-radius: 10px;
+    
+} 
+
+.boton-comederos {
+    background-color: #F0A83E;
+    padding: 10px;
+    border: none;
+    color: #ffffff;
+}
+
+
+
+.mensaje {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    margin-top: 100px;
+    margin-left: 950px;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+}
+
+.patita {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.patita img{
+    width: 70px;
+}
+
+ .patita h2{
+    font-size: 40px;
+    margin: 20px;
+}
+
+.patita ul{
+    display: flex;
+
+}
+
+.patita a{
+    color: #666;
+    text-decoration: none;
+}
+
+.productos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.productos div{
+    background-color: #FBFAF6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.productos p {
+    color:#3C2313;
+}
+
+.productos span {
+    color:#F0A83E;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+
+}
+
+.formulario h3 {
+    color: #3C2313;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.formulario input {
+    background-color:#3C2313;
+    font-size: 9px;
+    color: #ffffff;
+    width: 340px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 15px;
+    border: none;
+}
+
+.formulario button{
+    margin-top: 40px;
+    width: 110px;
+    height: 35px;
+    color: #ffffff;
+    margin-left: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+#boton1 {
+    background-color: #8A8787;
+}
+
+#boton2 {
+    background-color: #F0A83E;
+}
+
+footer {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.suscripcion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0A83E;
+    height: 60px;
+   
+}
+
+.suscripcion h3 {
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.suscripcion input {
+    border-radius: 15px;
+    background-color: #ffffff;
+    border: none;
+    width: 270px;
+    height: 40px;
+    color: #A0A0A0;
+    font-size: 9px;
+}
+
+.suscripcion button {
+    background-color: #3C2313;
+    margin-right: 40px;
+    border-radius: 15px;
+    border: none;
+    width: 70px;
+    height: 35px;
+    color: #ffffff;
+    font-size: 9px;
+}
+
+.contacto-logo {
+    display: flex;
+    height: 300px;
+    background-color: #3C2313;
+    justify-content: space-around;
+    
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contacto h3 {
+    color:#ffffff;
+    font-size: 20px;
+}
+
+.contacto span {
+    color: #ffffff;
+    font-size: 10px;
+}
+
+.logo-footer {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
